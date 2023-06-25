@@ -1,0 +1,68 @@
+a {
+    color: antiquewhite;
+}
+
+#headtable {
+    background-color: darkcyan !important;
+}
+
+#fixed {
+    background-color: yellowgreen;
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    left: 100px;
+    top: 50px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar .navbar-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+/* Estilos generales del cuerpo */
+#bodyAll {
+    margin: 0;
+    padding: 0;
+}
+
+/* Imagen de fondo para pantallas anchas */
+@media screen and (min-width: 1200px) {
+    #bodyAll {
+        background-image: url('../src/Carrusel/CBTIS_FT\ \(6\).jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Imagen de fondo para pantallas altas */
+@media screen and (max-height: 1080px) {
+    #bodyAll {
+        background-image: url('../src/CBTIS_FT\ \(6\).jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+#formComment{
+    margin-top: 1rem;
+}
+/*
+#comment-body{
+    border-radius: 10px;
+    border: 0px solid;
+}*/
+
+#informacionAdicional {
+    display: none;
+}
+
+#informacionAdicionalLog {
+    display: none;
+}
